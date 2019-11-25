@@ -11,10 +11,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="VuesModeles\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Compile Update="Vues\PagePrincipal.xaml.cs">
       <DependentUpon>PagePrincipal.xaml</DependentUpon>
     </Compile>

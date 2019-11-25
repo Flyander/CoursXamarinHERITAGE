@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CoursXamarinHERITAGE.VuesModeles;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,7 @@ namespace CoursXamarinHERITAGE.Vues
         public PagePrincipal()
         {
             InitializeComponent();
+            BindingContext = new PrincipalVueModele();
         }
     }
 }
